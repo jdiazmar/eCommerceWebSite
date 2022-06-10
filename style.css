@@ -17,3 +17,23 @@ body {
     color: black;
     margin: 0;
 }
+
+header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+nav div img {
+        float: left;
+        margin-left: 2rem;
+        width: 100px;
+}
+
+nav a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
