@@ -62,6 +62,33 @@ nav li {
     margin-right: 0.5rem;
 }
 
+main section {
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.about h1 {
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.clay-photo {
+    
+}
+
 .social-logos  {
     display: flex;
     place-content: center;
@@ -76,8 +103,11 @@ nav li {
 
 .logo-white {
     letter-spacing: 1rem; 
-    font-size: 1rem;
-    font-weight: bold;
+    font: status-bar;
+}
+
+img.logo-white {
+    shape-image-threshold:inherit;
 }
 
 .ending {
