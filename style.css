@@ -131,3 +131,18 @@ p.ending {
     color: white;
     font-size: medium;
 }
+
+h3 ul {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 1rem;
+    position: revert;
+    bottom: 0.7rem;
+    left: 1rem;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
