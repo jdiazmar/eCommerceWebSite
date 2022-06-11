@@ -86,7 +86,14 @@ main section {
 }
 
 .clay-photo {
-    
+    border: 10px;
+    float: inherit;
+    width: 1155px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
 }
 
 .social-logos  {
