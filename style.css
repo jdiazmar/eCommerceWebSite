@@ -30,7 +30,7 @@ div img {
     width: 150px;
 }
 
-.flex_div {
+.flex_div img {
     display: grid;
     place-content: center;
 }
@@ -39,6 +39,7 @@ div img {
     letter-spacing: 1rem; 
     font-size: 1rem;
     font-weight: bold;
+    float: left;
 }
 
 nav a {
