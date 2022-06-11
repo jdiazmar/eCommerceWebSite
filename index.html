@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eCommerce Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div> <img src="./assets/UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" 
-            alt="Three white clay pots" />
+        <nav class="home">
+            <div>
+                <ul>
+                    <li> <a href=""> HOME</a></li>
+                    <li> <a href=""> PRODUCTS</a></li>
+                    <li> <a href=""> ABOUT</a></li>
+                    <li> <a href=""> CONTACT</a></li>
+                </ul>
             </div>
-            <a href=""> Cara <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png"
-                alt="Cara Cara Logo in Mcdonalds Hot Mustard color" /> Cara</a>
-            
-            <ul>
-                <li> <a href=""> HOME</a></li>
-                <li> <a href=""> PRODUCTS</a></li>
-                <li> <a href=""> ABOUT</a></li>
-                <li> <a href=""> CONTACT</a></li>
-            </ul>
+            <div> 
+                <img src="./assets/UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" 
+                alt="Three white clay pots" />
+            </div>
+            <div class="flex_div">
+               <p class="logo-font">CARA</p>
+               <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png" alt="pottery icon orange">
+               <p class="logo-font">CARA</p>
+            </div> 
+           
         </nav>
 
     </header>
     <main>
-        <section class="home">
-            <h1>ABOUT US</h1>
+        <section class="about">
+            <h1> ABOUT US</h1>
             <form>
                 <label> EMAIL
                     <input>
                 </label>
                 <button>SUBMIT</button>
             </form>
-            <div>
-                <img src="./assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" />
+            <div class="clay-photo">
+                <img src="./assets/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands molding clay into a pot" />
             </div>
-                
-            alt="hands molding clay into a pot" />
-            <div>
+            <div class="para-one"> 
                 <p>
                     Twenty seconds were all that was left and Richard could hear each one tick by. 
                     Fifteen seconds now remained and the panic began to fully set in. Ten seconds 
@@ -49,7 +54,7 @@
                     knew nothing about himself.
                 </p>
             </div>
-            <div>
+            <div class="para-two">
                 <p>
                     It was difficult to explain to them how the diagnosis of certain death had actually given him 
                     life. While everyone around him was in tears and upset, he actually felt more at ease. The doctor 
@@ -57,7 +62,7 @@
                     his daily drudgery of a routine that had passed as life until then.
                 </p> 
             </div>
-            <div>
+            <div class="heading-two">
                 <h2>MUNDO BOWLS</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
@@ -67,7 +72,7 @@
                 culpa qui officia deserunt mollit anim id est laborum.
             </p>
             </div>
-            <h3>
+            <h3 class="heading three">
                 <ul>
                     <li> <a href=""> HOME</a></li>
                     <li> <a href=""> PRODUCTS</a></li>
@@ -82,14 +87,16 @@
 
     </main>
         <footer>
-            <div>
+            <div class="social-logos">
 
                 <a href=""> </a><img src="./assets/UX-HTML-CSS/icons8-youtube-96.png" alt="YouTube Logo" />
                 <a href=""> </a><img src="./assets/UX-HTML-CSS/icons8-facebook-96 (1).png" alt="Facebook Logo" />
-                <a href=""> Cara <img src="./assets/UX-HTML-CSS/icons8-pottery-96.png"
-                alt="Cara Cara Logo in Mcdonalds Hot Mustard color" /> Cara</a>
+                <p class="logo-white">CARA</p>
+                <a href=""> <img src="./assets/UX-HTML-CSS/icons8-pottery-96 (1).png"
+                alt="Cara Cara Logo in Mcdonalds Hot Mustard color" /> </a>
+                <p class="logo-white">CARA</p>
             </div>
-            <div> 
+            <div class="ending"> 
             <p>
                 CERMAIC 
             </p> 

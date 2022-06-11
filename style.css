@@ -12,28 +12,84 @@ html {
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
     background-color: white;
     color: black;
     margin: 0;
 }
 
 header {
-    background-color: white;
-    position: relative;
-    padding: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
 }
 
-nav div img {
-        float: left;
-        margin-left: 2rem;
-        width: 100px;
+div img {
+    float: left;
+    margin: 1rem;
+    width: 150px;
+}
+
+.flex_div {
+    display: grid;
+    place-content: center;
+}
+
+.logo-font {
+    letter-spacing: 1rem; 
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 nav a {
     color: black;
-    font-size: 15px;
-    text-decoration: none;
-    font-family: 'Segoe UI';
+    font-size: 30px;
+    text-decoration: none;    
+    float: none;
+    margin: auto;
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.social-logos  {
+    display: flex;
+    place-content: center;
+    text-align: center;
+    background-color: rgb(191, 118, 049);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.logo-white {
+    letter-spacing: 1rem; 
+    font-size: 1rem;
     font-weight: bold;
+}
+
+.ending {
+    text-align: center;
+    background-color: black;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+p.ending {
+    color: white;
+    font-size: medium;
 }
